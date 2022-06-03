@@ -1,0 +1,12 @@
+<amplify-authenticator [formFields]="formFields">
+  <ng-template amplifySlot="authenticated" let-user="user" let-signOut="signOut">
+
+    <mat-toolbar *ngIf="user">
+      <h1>Welcome {{ user.attributes.given_name }}!</h1>
+      <span class="spacer"></span>
+      <button (click)="signOut()">Sign Out</button>
+    </mat-toolbar>
+
+    <router-outlet></router-outlet>
+  </ng-template>
+</amplify-authenticator>

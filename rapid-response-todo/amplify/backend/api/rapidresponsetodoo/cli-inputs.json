@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "rapidresponsetodoo",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/neal.khatiwada/repos/rapid-response-todo/rapid-response-todo/amplify/backend/api/rapidresponsetodoo/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authrapidresponsetodoo27f86121"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+# this is an auto generated file. This will be overwritten
+query GetTodo($id: ID!) {
+  getTodo(id: $id) {
+    id
+    author
+    type
+    content
+    completedBy
+    updatedAt
+    createdAt
+  }
+}
+query ListTodos(
+  $filter: ModelTodoFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listTodos(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      author
+      type
+      content
+      completedBy
+      updatedAt
+      createdAt
+    }
+    nextToken
+  }
+}
+query TodosByDate(
+  $type: String!
+  $updatedAt: ModelStringKeyConditionInput
+  $sortDirection: ModelSortDirection
+  $filter: ModelTodoFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  todosByDate(
+    type: $type
+    updatedAt: $updatedAt
+    sortDirection: $sortDirection
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+  ) {
+    items {
+      id
+      author
+      type
+      content
+      completedBy
+      updatedAt
+      createdAt
+    }
+    nextToken
+  }
+}

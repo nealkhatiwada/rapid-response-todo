@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-rapidresponsetodoo-dev-143939-authRole",
+      "UnauthRoleArn": "arn:aws:iam::282954005277:role/amplify-rapidresponsetodoo-dev-143939-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::282954005277:role/amplify-rapidresponsetodoo-dev-143939-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-rapidresponsetodoo-dev-143939-deployment",
+      "UnauthRoleName": "amplify-rapidresponsetodoo-dev-143939-unauthRole",
+      "StackName": "amplify-rapidresponsetodoo-dev-143939",
+      "StackId": "arn:aws:cloudformation:us-east-2:282954005277:stack/amplify-rapidresponsetodoo-dev-143939/e8eadba0-e374-11ec-bcbd-02536cc1f7d0",
+      "AmplifyAppId": "d2k2p091i38y71"
+    },
+    "categories": {
+      "auth": {
+        "rapidresponsetodoo27f86121": {}
+      }
+    }
+  }
+}
